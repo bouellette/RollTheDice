@@ -15,6 +15,11 @@ namespace RollTheDice
 
         public Random RandomNumberGenerator { get; set; }
 
+        /// <summary>
+        /// Roll method accepts number of dice parameter...
+        /// </summary>
+        /// <param name="numberOfDice"></param>
+        /// <returns></returns>
         public List<int> Roll(int numberOfDice)
         {
             List<int> dice = new List<int>();
