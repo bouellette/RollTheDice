@@ -25,6 +25,13 @@ namespace RollTheDice
             return dice;
         }
 
+        /// <summary>
+        /// Overloaded Roll method accepts number of dice sides parameter...
+        /// </summary>
+        /// <param name="numberOfDice"></param>
+        /// <param name="numberOfDiceSides"></param>
+        /// <returns></returns>
+                 
         public List<int> Roll(int numberOfDice, int numberOfDiceSides)
         {
             List<int> dice = new List<int>();
