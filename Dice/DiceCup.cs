@@ -24,5 +24,15 @@ namespace RollTheDice
             }
             return dice;
         }
+
+        public List<int> Roll(int numberOfDice, int numberOfDiceSides)
+        {
+            List<int> dice = new List<int>();
+            for (int i = 0; i < numberOfDice; i++)
+            {
+                dice.Add(RandomNumberGenerator.Next(1, numberOfDiceSides + 1));
+            }
+            return dice;
+        }
     }
 }
